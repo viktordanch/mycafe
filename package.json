@@ -1,0 +1,34 @@
+{
+  "name": "mycafe",
+  "version": "1.0.0",
+  "description": "test book second project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive",
+    "watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "author": "Viktor Danch",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "sinon": "^1.15.4",
+    "chai": "^3.2.0",
+    "sinon-chai": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktordanch/mycafe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viktordanch/mycafe/issues"
+  },
+  "homepage": "https://github.com/viktordanch/mycafe"
+}
